@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+} 
+
+.nav {
+  display: flex;
+  background-color: #000000;
+  position: sticky;
+}
+
+.nav a {
+  border-color: #d4af37;
+  background-color: #3b444b;
+  color: #d4af37;
+  border-radius: 10px; 
+  padding: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.nav h1 {
+  color: #d4af37;
+  margin-left: 40%;
+}
+
+.nav .login-button {
+  right: 0;
+  position: absolute;
+}
+.nav .back-button{
+  right: 0;
+  position: absolute;
+}
+.nav .updatePass{
+  left: 0;
+  position: absolute;
+}
+.nav .createList{
+  right: 0;
+  position: absolute;
+}
+.nav .homeButton{
+  right: 0;
+  position: absolute;
+}
+
+.nav a:hover {
+  color: #ffd700;
+  background-color: #222024;
+}
+
+.nav .home {
+  left: 0;
+  position: absolute;
+}
+
